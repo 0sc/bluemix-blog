@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 256M
+  instances: 1
+  domain: eu-gb.mybluemix.net
+  name: bluemix-blog
+  host: bluemix-blog
+  disk_quota: 1024M
+  command: rake db:migrate && bin/rails server -p $PORT -e $RAILS_ENV
+  services:
+  - performance-monitoring-auto

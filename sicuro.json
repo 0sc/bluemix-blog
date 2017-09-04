@@ -1,0 +1,8 @@
+{
+    "test": {
+        "override": false,
+        "custom": [
+            "bundle exec rake test"
+        ]
+    }
+}

@@ -1,6 +1,6 @@
 {
     "test": {
-        "override": false,
+        "override": true,
         "custom": [
             "bundle exec rake test"
         ]
